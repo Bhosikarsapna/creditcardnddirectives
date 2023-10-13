@@ -1,0 +1,33 @@
+
+
+<!-- DIRECTIVES >> which gives instructions to DOM.
+
+            1] structural
+            2] attribute
+            3] component >> it has own html
+
+-->
+<h1>CreditCard nd Directives</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <input type="text" appCreditCard class="form-control my-5">
+      <p class="alert alert-danger d-none">
+        creditcard number should not includes alphabets and special charaters.
+      </p>
+      <hr>
+      <p basicCss [bgColor]="'yellowgreen'">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In velit et aliquam quo quos, maxime assumenda dolorem officiis nam magni quaerat accusamus consequuntur, aliquid incidunt impedit! Perferendis illo voluptatum vitae?
+      </p>
+
+      <p basicCss [bgColor]="'blueviolet'">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In velit et aliquam quo quos, maxime assumenda dolorem officiis nam magni quaerat accusamus consequuntur, aliquid incidunt impedit! Perferendis illo voluptatum vitae?
+      </p>
+
+      
+      <p appRendercss>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In velit et aliquam quo quos, maxime assumenda dolorem officiis nam magni quaerat accusamus consequuntur, aliquid incidunt impedit! Perferendis illo voluptatum vitae?
+      </p>
+    </div>
+  </div>
+</div>
